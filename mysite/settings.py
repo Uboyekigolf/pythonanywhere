@@ -27,7 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['Uboyekigolf.pythonanywhere.com']
 
-
+STATICFILES_DIRS =[
+    "/pythonanywhere/static/css",
+]
 # Application definition
 
 INSTALLED_APPS = [
@@ -118,11 +120,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATIC_URL = '/static/'
-
-# default static files settings for PythonAnywhere.
-# see https://help.pythonanywhere.com/pages/DjangoStaticFiles for more info
-MEDIA_ROOT = '/home/Uboyekigolf/mysite/media'
-MEDIA_URL = '/media/'
-STATIC_ROOT = '/home/Uboyekigolf/mysite/static'
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]
 STATIC_URL = '/static/'

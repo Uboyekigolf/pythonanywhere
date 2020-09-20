@@ -2,8 +2,14 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def index(req):
-	#return HttpResponse('ยินดีตอนรับ เข้าสู่ไซต์องผม'+req.meyhod)
     return render(req, 'myweb/index.html')
+
+def Signup(req):
+    return render(req, 'myweb/Signup.html')
+
+def Login(req):
+    return render(req, 'myweb/Login.html')
+
 
 def detail(request, question_id):
     return HttpResponse("You're looking at question {question_id")
