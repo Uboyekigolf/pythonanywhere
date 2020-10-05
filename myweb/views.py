@@ -1,22 +1,28 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from django.http import HttpResponse
+from django.contrib.auth import login, authenticate
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth import logout as logout_user
 
 def index(req):
     return render(req, 'myweb/index.html')
 
-def Signup(req):
-    return render(req, 'myweb/Signup.html')
+def home1(req):
+    return render(req, 'myweb/home1.html')
+def signup(request):
+    if request.method == 'POST':
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            form.save()
+            username = form.cleaned_data.get('username')
+            raw_password = form.cleaned_data.get('password1')
+            user = authenticate(username=username, password=raw_password)
+            login(request, user)
+            return redirect('login')
+    else:
+        form = UserCreationForm()
+    return render(request, 'myweb/register.html', {'form': form})
 
-def Login(req):
-    return render(req, 'myweb/Login.html')
-
-
-def detail(request, question_id):
-    return HttpResponse("You're looking at question {question_id")
-
-def results(request, question_id):
-    response = "You're looking at the results of question %s."
-    return HttpResponse(response % question_id)
-
-def vote(request, question_id):
-    return HttpResponse("You're voting on question %s." % question_id)
+def logout(req):
+    logout_user(req)
+    return render ('index')

@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['Uboyekigolf.pythonanywhere.com']
 
 STATICFILES_DIRS =[
-    "/pythonanywhere/static/css",
+     os.path.join(BASE_DIR, "static"),
 ]
 # Application definition
 
@@ -116,11 +116,15 @@ USE_L10N = True
 
 USE_TZ = True
 
-
+LOGIN_URL = 'login'
+LOGIN_REDIRECT_URL = 'home1'
+LOGOUT_REDIRECT_URL = 'index'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-]
+MEDIA_ROOT = u'/home/trithep/mysite/media'
+MEDIA_URL = '/media/'
+
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static")
+
 STATIC_URL = '/static/'
