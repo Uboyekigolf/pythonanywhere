@@ -10,5 +10,6 @@ urlpatterns = [
     path('login',auth_views.LoginView.as_view(template_name='myweb/login.html'),name='login'),
     path('', views.index, name='index'),
     path('home1', views.home1, name='home1'),
-
+    path('rog1', views.search, name='rog1'),
+    path('ro2', views.search, name='ro2'),
 ]

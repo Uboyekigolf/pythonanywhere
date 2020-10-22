@@ -1,0 +1,165 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>KAFRA</title>
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="{{STATIC_URL}}css/bootstrap.min.css">
+        <link rel="stylesheet" href="static/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{STATIC_URL}}css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="static/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{{STATIC_URL}}css/fontAwesome.css">
+        <link rel="stylesheet" href="static/css/fontAwesome.css">
+        <link rel="stylesheet" href="{{STATIC_URL}}css/light-box.csss">
+        <link rel="stylesheet" href="static/css/light-box.css">
+        <link rel="stylesheet" href="{{STATIC_URL}}css/templatemo-style.css">
+        <link rel="stylesheet" href="static/css/templatemo-style.css">
+
+
+        <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+        <script src="static/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <a class="link" href="/">KA<em>FRA</em></a>
+        </div>
+        <div class="menu-icon">
+        <span></span>
+      </div>
+    </nav>
+
+    <div class="page-heading">
+        <div class="container">
+            <div class="heading-content">
+                <h1>SEAR <em>CH</em></h1>
+            </div>
+        </div>
+    </div>
+
+
+       <div class="container-body" id="show" style="text-align: center;">
+      <div class="fonts">
+        <form method="POST" style="margin-top: 1rem;margin-bottom: 1rem;color:black">
+            {% for herb in herbs %}
+             <p>{{ herb.herb_name }}</p>
+            {% endfor %}
+            {% csrf_token %}
+            {{ form.as_p }}
+                <input type ="submit" value="click">
+        </form>
+      <div id="output"></div>
+      </div>
+      </center>
+
+    <div class="blog-entries">
+        <div class="container">
+            <div class="col-md-9">
+                <div class="blog-posts">
+                    <div class="row">
+
+                            <div class="">
+
+                                <div class="text-content">
+
+                                    <h2></h2>
+                                    <p>
+                                    <br><br></p>
+                                    <div class="simple-btn">
+                                        <a href="single-post.html"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="">
+
+                                <div class="text-content">
+
+                                    <h2></h2>
+                                    <p>
+                                    <br><br></p>
+                                    <div class="simple-btn">
+                                        <a href="single-post.html"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-tables">
+                            <div class="">
+
+                                <div class="text-content">
+
+                                    <h2></h2>
+                                    <p>
+                                    <br><br>
+                                    <div class="simple-btn">
+                                        <a href="single-post.html"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <ul class="page-number">
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+    <footer>
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <p>Sthian &copy;
+
+    | Smart</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+        <section class="overlay-menu">
+          <div class="container">
+            <div class="row">
+              <div class="main-menu">
+                  <ul >
+                      <li>
+                          <a class ="link" href="/home1">HOME</a>
+                      </li>
+                       <li>
+                          <a class ="link" href="/">logout</a>
+                      </li>
+                  </ul>
+                  <p></p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="static/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="static/js/vendor/bootstrap.min.js"></script>
+
+        <script src="static/js/plugins.js"></script>
+        <script src="static/js/main.js"></script>
+
+</body>
+</html>
