@@ -30,7 +30,7 @@
 
     <nav>
         <div class="logo">
-            <a class="link" href="/">KA<em>FRA</em></a>
+            <a class="link" href="/home1">KA<em>FRA</em></a>
         </div>
         <div class="menu-icon">
         <span></span>
@@ -49,11 +49,12 @@
        <div class="container-body" id="show" style="text-align: center;">
       <div class="fonts">
         <form method="POST" style="margin-top: 1rem;margin-bottom: 1rem;color:black">
-            {% for herb in herbs %}
-             <p>{{ herb.herb_name }}</p>
-            {% endfor %}
             {% csrf_token %}
             {{ form.as_p }}
+            {% if form.errors %}
+                <p style="color:white;"> Try again </p>
+                <script>alert("ไม่มีคำข้อนี้")</script>
+                {% endif %}
                 <input type ="submit" value="click">
         </form>
       <div id="output"></div>
@@ -142,7 +143,12 @@
                   <ul >
                       <li>
                           <a class ="link" href="/home1">HOME</a>
+
                       </li>
+                      <li>
+                          <a class ="link" href="/open1">ข้อมูลสมุนไพร</a>
+                      </li>
+
                        <li>
                           <a class ="link" href="/">logout</a>
                       </li>

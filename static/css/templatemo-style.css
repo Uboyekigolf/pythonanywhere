@@ -40,7 +40,7 @@ body, html {
 .page-heading .heading-content h1 {
   font-size: 32px;
   text-transform: uppercase;
-  color: #fff;
+  color: #000000;
   letter-spacing: 1px;
   background-color: rgba(250,250,250,0.1);
   display: inline-block;
@@ -67,7 +67,7 @@ body, html {
 .page-heading1 .heading-content h1 {
   font-size: 32px;
   text-transform: uppercase;
-  color: #fff;
+  color: #000000;
   letter-spacing: 1px;
   background-color: rgba(250,250,250,0.1);
   display: inline-block;
@@ -93,7 +93,7 @@ nav .logo a {
   font-size: 28px;
   line-height: 80px;
   text-transform: uppercase;
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   letter-spacing: 0.5px;
 }
@@ -116,7 +116,7 @@ nav {
 
 .menu-icon {
   background: transparent;
-  border: 1px solid #fff;
+  border: 1px solid #000000;
   width: 50px;
   height: 50px;
   margin: 15px 39px 0 auto;
@@ -176,7 +176,7 @@ nav {
 
 .overlay-menu {
   background: rgba(0, 0, 0, 0.95);
-  color: #ffffff;
+  color: #000000;
   position: fixed;
   z-index: 100;
   left: 0;
@@ -239,7 +239,7 @@ nav {
 .overlay-menu ul li a {
   font-size: 24px;
   font-weight: 300;
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   transition: all 0.5s;
 }
@@ -253,7 +253,7 @@ nav {
   margin-top: 60px;
   font-size: 13px;
   text-transform: uppercase;
-  color: #fff;
+  color: #000000;
   font-weight: 200;
   letter-spacing: 0.5px;
   text-align: center;
@@ -304,7 +304,7 @@ nav {
 #video-container .video-content .inner h1 {
   font-size: 64px;
   text-transform: uppercase;
-  color: #fff;
+  color: #000000;
   letter-spacing: 2px;
   font-weight: 500;
   text-align: center;
@@ -317,7 +317,7 @@ nav {
 
 
 #video-container .video-content .inner p {
-  color: #fff;
+  color: #000000;
   font-size: 22px;
   font-weight: 200;
   letter-spacing: 1.5px;
@@ -326,7 +326,7 @@ nav {
 }
 
 #video-container .video-content .inner a {
-  color: #fff;
+  color: #000000;
   text-decoration: underline;
 }
 
@@ -364,7 +364,7 @@ nav {
   position: relative;
   font-size: 22px;
   text-transform: uppercase;
-  color: #fff;
+  color: #000000;
   display: inline-block;
   padding-left: 20px;
   line-height: 15px;
@@ -387,7 +387,7 @@ nav {
   font-weight: 300!important;
   letter-spacing: 0.5px;
   font-size: 14px;
-  color: #fff;
+  color: #000000;
   opacity: 0;
   transform: translateY(10px);
   transition: .5s ease-in-out;
@@ -468,7 +468,7 @@ nav {
   border-bottom: none;
 }
 .modal-header h3 {
-  color: #fff;
+  color: #000000;
   font-weight: 400;
   letter-spacing: 1px;
   font-size: 64px;
@@ -485,7 +485,7 @@ nav {
 .modal-content .close-btn {
   position: absolute;
   z-index: 99999999;
-  color: #fff;
+  color: #000000;
   right: 38px;
   top: 15px;
   width: 50px;
@@ -504,7 +504,7 @@ nav {
   padding-left: 15px;
   font-size: 14px;
   font-weight: 200;
-  color: #fff;
+  color: #000000;
   background-color: rgba(250, 250, 250, 0.15);
   outline: none;
   border: none;
@@ -523,7 +523,7 @@ nav {
   padding-top: 10px;
   font-size: 14px;
   font-weight: 200;
-  color: #fff;
+  color: #000000;
   background-color: rgba(250, 250, 250, 0.15);
   outline: none;
   border: none;
@@ -543,9 +543,9 @@ nav {
   text-transform: uppercase;
   font-weight: 600;
   background-color: transparent;
-  color: #fff;
+  color: #000000;
   letter-spacing: 2px;
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid #000000;
   display: inline-block;
   padding: 0px 0px 3px 0px;
   transition: all 0.5s;
@@ -569,7 +569,7 @@ nav {
   100% {
     top: 0%;
     opacity: 1;
-  }  
+  }
 }
 
 @keyframes totop-out {
@@ -580,7 +580,7 @@ nav {
   100% {
     top: -100%;
     opacity: 0;
-  }  
+  }
 }
 
 
@@ -593,7 +593,7 @@ footer {
 
 footer p {
   text-align: center;
-  color: #fff;
+  color: #000000;
   font-weight: 200;
   font-size: 13px;
   text-transform: uppercase;
@@ -664,7 +664,7 @@ footer a:hover {
   position: relative;
   font-size: 22px;
   text-transform: uppercase;
-  color: #fff;
+  color: #000000;
   display: inline-block;
   padding-left: 20px;
   line-height: 15px;
@@ -687,7 +687,7 @@ footer a:hover {
   font-weight: 300!important;
   letter-spacing: 0.5px;
   font-size: 14px;
-  color: #fff;
+  color: #000000;
   opacity: 0;
   transform: translateY(10px);
   transition: .5s ease-in-out;
@@ -731,7 +731,7 @@ footer a:hover {
   position: relative;
   font-size: 22px;
   text-transform: uppercase;
-  color: #fff;
+  color: #000000;
   display: inline-block;
   padding-left: 20px;
   line-height: 15px;
@@ -754,7 +754,7 @@ footer a:hover {
   font-weight: 300!important;
   letter-spacing: 0.5px;
   font-size: 14px;
-  color: #fff;
+  color: #000000;
   opacity: 0;
   transform: translateY(10px);
   transition: .5s ease-in-out;
@@ -780,7 +780,7 @@ footer a:hover {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 1px;
-  color: #fff;
+  color: #000000;
   background-color: #313131;
   transition: all 0.5s;
  }
@@ -822,7 +822,7 @@ footer a:hover {
 
 .services .service-item h4 {
   margin-top: 20px;
-  color: #fff;
+  color: #000000;
   font-size: 20px;
   text-transform: capitalize;
   letter-spacing: 0.5px;
@@ -852,7 +852,7 @@ footer a:hover {
   background-color: rgba(0,0,0,0.8);
   text-align: left;
   padding: 150px 60px;
-  color: #fff;
+  color: #000000;
 }
 
 .more-about-us .content h2 {
@@ -872,7 +872,7 @@ footer a:hover {
 }
 
 .more-about-us .content p {
-  color: #fff;
+  color: #000000;
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
@@ -887,9 +887,9 @@ footer a:hover {
   text-transform: uppercase;
   font-weight: 600;
   background-color: transparent;
-  color: #fff;
+  color: #000000;
   letter-spacing: 2px;
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid #000000;
   padding-bottom: 3px;
   text-decoration: none;
   transition: all 0.5s;
@@ -941,7 +941,7 @@ footer a:hover {
 .pricing-tables .table-item ul li {
   font-size: 15px;
   font-weight: 300;
-  color: #fff;
+  color: #000000;
   letter-spacing: 0.5px;
   margin: 15px 0px;
 }
@@ -1008,7 +1008,7 @@ footer a:hover {
 .blog-post .text-content span {
   font-size: 16px;
   font-weight: 200;
-  color: #fff;
+  color: #000000;
   letter-spacing: 0.5px;
 }
 
@@ -1020,7 +1020,7 @@ footer a:hover {
 .blog-post .text-content h2 {
   margin-top: 5px;
   font-size: 36px;
-  color: #fff;
+  color: #000000;
   letter-spacing: 0.5px;
   text-transform: capitalize;
   font-weight: 300;
@@ -1043,9 +1043,9 @@ footer a:hover {
   text-transform: uppercase;
   font-weight: 600;
   background-color: transparent;
-  color: #fff;
+  color: #000000;
   letter-spacing: 2px;
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid #000000;
   padding-bottom: 3px;
   text-decoration: none;
   transition: all 0.5s;
@@ -1072,7 +1072,7 @@ footer a:hover {
 
 .blog-entries .page-number li.active a {
   color: #232323;
-  background-color: #fff;
+  background-color: #000000;
 }
 
 .blog-entries .page-number li.active a:hover {
@@ -1081,7 +1081,7 @@ footer a:hover {
 
 .blog-entries .page-number li a {
   font-size: 18px;
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   width: 50px;
   height: 50px;
@@ -1112,7 +1112,7 @@ footer a:hover {
 .single-blog-post .text-content span {
   font-size: 16px;
   font-weight: 200;
-  color: #fff;
+  color: #000000;
   letter-spacing: 0.5px;
   border-bottom: 1px solid #414141;
   padding-bottom: 25px;
@@ -1129,7 +1129,7 @@ footer a:hover {
 .single-blog-post .text-content h2 {
   margin-top: 0px;
   font-size: 36px;
-  color: #fff;
+  color: #000000;
   letter-spacing: 0.5px;
   text-transform: capitalize;
   font-weight: 300;
@@ -1157,7 +1157,7 @@ footer a:hover {
 }
 
 .single-blog-post .tags-share ul li:first-child {
-  color: #fff;
+  color: #000000;
   font-size: 16px;
   font-weight: 200;
   letter-spacing: 0.5px;
@@ -1165,7 +1165,7 @@ footer a:hover {
 
 .single-blog-post .tags-share ul li {
   display: inline-block;
-  color: #fff;
+  color: #000000;
 }
 
 .single-blog-post .tags-share ul li a {
@@ -1191,7 +1191,7 @@ footer a:hover {
   height: 50px;
   line-height: 50px;
   padding-left: 15px;
-  color: #fff;
+  color: #000000;
   font-size: 15px;
   font-weight: 300;
   border-radius: 0px;
@@ -1202,7 +1202,7 @@ footer a:hover {
 .sidebar-heding h2 {
   font-size: 20px;
   text-transform: capitalize;
-  color: #fff;
+  color: #000000;
   margin-top: 40px;
   letter-spacing: 0.5px;
   padding-bottom: 10px;
@@ -1217,17 +1217,17 @@ footer a:hover {
 }
 
 .archives ul li, .categories ul li {
-  margin-bottom: 12px; 
+  margin-bottom: 12px;
 }
 
 .archives ul li:last-child, .categories ul li:last-child {
-  margin-bottom: 0px; 
+  margin-bottom: 0px;
 }
 
 .archives ul li a, .categories ul li a {
   font-size: 15px;
   font-weight: 200;
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   letter-spacing: 0.5px;
   transition: all 0.5s;
@@ -1267,7 +1267,7 @@ footer a:hover {
   margin-top: 0px;
   display: block;
   font-size: 16px;
-  color: #fff;
+  color: #000000;
   letter-spacing: 0.5px;
 }
 

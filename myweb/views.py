@@ -11,6 +11,8 @@ def rog1(req):
     return render(req, 'myweb/rog1.html')
 def ro2(req):
     return render(req, 'myweb/ro2.html')
+def open1(req):
+    return render(req, 'myweb/open1.html')
 def home1(req):
     return render(req, 'myweb/home1.html')
 def signup(request):

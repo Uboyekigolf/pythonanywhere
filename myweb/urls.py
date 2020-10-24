@@ -12,4 +12,5 @@ urlpatterns = [
     path('home1', views.home1, name='home1'),
     path('rog1', views.search, name='rog1'),
     path('ro2', views.search, name='ro2'),
+    path('open1', views.open1, name='open1'),
 ]
