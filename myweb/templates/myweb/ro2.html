@@ -49,6 +49,8 @@
         <form method="POST" style="margin-top: 1rem;margin-bottom: 1rem;color:black">
             {% for herb in herbs %}
              <p>{{ herb.herb_name }}</p>
+             <img src="{{ hreb.img }}" style="height: 250px;width:250px;margin-bottom:1rem;border-radius: 5px;">
+
             {% endfor %}
         </form>
       <div id="output"></div>

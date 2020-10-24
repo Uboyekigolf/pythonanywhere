@@ -1,7 +1,6 @@
 
 from django.contrib import admin
 
-from .models import herbtype,herb
+from .models import herb
 
-admin.site.register(herbtype)
 admin.site.register(herb)
